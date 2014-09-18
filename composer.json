@@ -1,0 +1,36 @@
+{
+    "name": "vinceg/realtor.com",
+    "type": "application",
+    "description": "Realtor.com PHP API Wrapper",
+    "keywords": ["realtor", "realtor.com", "mls", "php", "api"],
+    "homepage": "https://github.com/vinceg/realtor.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Gabriel",
+            "email": "vadimg88@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vinceg/realtor.com/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "4.*",
+        "fabpot/goutte": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Client\\": "Realtor/"
+        },
+        "psr-0": { "Realtor": "." }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x.x-dev"
+        }
+    }
+}
