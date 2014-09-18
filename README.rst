@@ -35,18 +35,18 @@ Make requests with a specific API call method:
 
 .. code-block:: php
 
-    // Run search by address
+    // Run search by zip code
     $response = $client->getListingsByZip(90021, $perPage[10,20,50], $currentPage=1);
 
 
 .. code-block:: php
 
-    // Run search by address
+    // Run search by city and state
     $response = $client->getListingsByCityAndState('Los Angeles', 'CA', $perPage[10,20,50], $currentPage=1);
 
 .. code-block:: php
 
-    // Run search by address
+    // Get listing information
     $response = $client->getInformation('LISTING FULL URL');        
 
 
