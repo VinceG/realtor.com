@@ -15,7 +15,7 @@ Add `vince/realtor.com`` as a require dependency in your ``composer.json`` file:
 
 .. code-block:: bash
 
-    php composer.phar require vince/realtor.com:~1.0
+    php composer.phar require vinceg/realtor.com:~1.0
 
 Usage
 -----
