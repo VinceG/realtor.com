@@ -1,6 +1,9 @@
 Realtor.com Search
 ================================
 
+Note! This is no longer working as Realtor.com often changes their site. Since this library scans the website and grabs the data based on the elemenets in the source code this stopped working once they changed their website.
+=================================
+
 This is a simple PHP Wrapper for searching Realtor.com and viewing listing information. Please read the realtor.com Terms Of Use before using this library.
 
 Requirements
